@@ -10,11 +10,7 @@ class SanctumAuthorizeRequest
     private string $password;
     private string $device;
 
-    public function __construct(
-        string $email,
-        string $password,
-        string $device
-    )
+    public function __construct( string $email, string $password,string $device)
     {
         $this->email = $email;
         $this->password = $password;
